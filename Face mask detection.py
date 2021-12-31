@@ -4,9 +4,9 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 from tensorflow import keras
 
-test_dr= r'D:\DSA Java\Deep_learning_internshala\Final_Assignment_Face Mask Dataset\Test'
-validation_dr=r'D:\DSA Java\Deep_learning_internshala\Final_Assignment_Face Mask Dataset\Validation'
-train_dr=r'D:\DSA Java\Deep_learning_internshala\Final_Assignment_Face Mask Dataset\Train'
+test_dr= r'D:\'
+validation_dr=r'D:\'
+train_dr=r'D:\'
  from tensorflow.keras.preprocessing.image import ImageDataGenerator
  #Generating batches of tensor image data
 train_datagen = ImageDataGenerator(rescale = 1./255)
